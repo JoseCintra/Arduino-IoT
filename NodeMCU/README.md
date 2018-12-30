@@ -1,2 +1,2 @@
 # NodeMCU 
-Experiments with the NodeMCU card and compatible
+Experiments with the NodeMCU board and compatibles
