@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.josecintra.wifi_rc" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Wi-fi Remote Control</name>
+	<description>Example of building a wi-fi remote control with HTML5/JQuery/Onsen UI and Phonegap. It will be used to control IoT devices, such as NodeMCU and compatibles</description>
+	<author href="http://www.josecintra.com/blog" email="josecintra@josecintra.com">Jose Cintra</author>
+
+	<icon src="www/assets/img/icon-256.png" width="256" height="256" density="xxxhdpi" />
+	<icon src="www/assets/img/icon-128.png" width="128" height="128" density="xhdpi" />
+
+	<preference name="android-targetSdkVersion" value="26" />
+
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="DisallowOverscroll" value="true" />
+	
+	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
+	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
+
+	<preference name="deployment-target" value="10.0" />
+	<preference name="android-minSdkVersion" value="21" />
+	<access origin="*" />
+
+	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-media" />
+	<plugin name="cordova-plugin-statusbar" />
+	<plugin name="cordova-plugin-whitelist" />
+
+	<engine name="ios" />
+	<engine name="android" />
+</widget>
