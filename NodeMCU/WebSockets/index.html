@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+  <head>
+    <title>Teste WebSockets</title>
+    
+    <meta charset="utf-8">
+    <meta name="author" content="José Cintra em Outubro de 2019 - www.josecintra.com/blog/comunicacao-websockets-nodemcu-esp8266">
+    <meta name="keywords" content="HTML5, CSS, jQuery, WebSockets, ESP8266, Arduino">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css"> 
+  </head>
+
+  <body class="bg-secondary">
+    
+    <br/>
+    <div class="container bg-secondary">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card bg-dark text-white">
+            <div class="card-body">
+              <h2 class="text-center">Teste WebSocket</h2>
+            </div>
+          </div>
+        </div>  
+      </div>  
+    
+      <br/>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card bg-dark text-white">
+            <div class="card-body">
+              <h5 class="card-title"><strong><i class="fas fa-lightbulb"></i> Situação do LED</strong></h5>
+              <button id="led-status" type="button" class="btn btn-lg btn-secondary">OFF</button> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card bg-dark text-white">
+            <div class="card-body">
+              <h5 class="card-title"><strong><i class="fas fa-thermometer-half"></i> Temperatura Atual</strong></h5>
+              <h2><span id="temperature">35</span> °C</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <br/>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card bg-dark text-white">
+            <div class="card-body">
+              <h5 class="card-title"><strong><i class="fas fa-history"></i> Log de comunicação</strong></h5>
+              <textarea id="log" class="form-control bg-dark text-white" rows="6" readonly></textarea>
+            </div>
+          </div>
+        </div>  
+      </div>  
+    </div>
+
+    <script src="assets/jquery/jquery.min.js" type="text/javascript"></script>   
+    <script src="assets/popper/popper.min.js" type="text/javascript"></script>   
+    <script src="assets/boostrap/js/bootstrap.min.js" type="text/javascript"></script>   
+    <script defer src="assets/fontawesome/js/all.min.js"></script>    
+    <script src="assets/js/index.js" type="text/javascript"></script>   
+
+  </body>
+
+</html>
+
+
+
